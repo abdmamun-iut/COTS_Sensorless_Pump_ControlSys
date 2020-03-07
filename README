@@ -1,0 +1,27 @@
+Design and Implementation of a Sensorless Microcontroller Based Automated Residential Water Pump Operating System
+====================================================================================================================
+
+This is my personal project from 2017 to automate the water pump system of our building.
+In this project I designed an electrical system and wrote the microcontroller code for controlling water pumps in a residential system without the use of any "commercial of-the-shelf" sensor.
+Here, analog pins from the microcontroller were directly connected through wires to the tank. One digital pin was also connected to the tank to send pulses at regular interval.
+The analog pins was then used to determine the level of water based on the presence of HIGH pulses in the top or bottom Analog pin.
+Seems very simple now that I've told you the trick. :P 
+Conventionally very expensive water level sensor or float switches have been used for the same purpose. 
+
+This entire project can now be completed at less then one third the cost of a water level sensor or float switch.
+
+
+This project was later turned into a student paper which brought me a Best Paper Award in 2017.
+
+Even though this got the best paper award, I made some error in the paper, which was not as obvious back then. Because I wasn't as expert. Duh!
+
+A key element was missing in the paper. A magnetic contactor should be used to switch the water pump after the microcontroller driven realy module. 
+Using the magnetic contactor is necessary because the relay module is not capable enough to switch the water pump by itself due to the very high current requirement of the water pump.
+Even though I've used to magnetic contactor in my real implemented project, I forgot to inculde them while writing the manuscript. 
+
+I am not really proud of the quality or content of the paper, but I am including the link to it anyway since it was my first ever independent research work 
+
+Link: 
+https://www.researchgate.net/publication/312557742_Design_and_Implementation_of_a_Sensorless_Microcontroller_Based_Automated_Residential_Water_Pump_Operating_System
+
+//As I said earlier, this is not my best work. So dont judge.//
